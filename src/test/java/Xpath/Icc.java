@@ -18,6 +18,7 @@ public class Icc {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://www.icc-cricket.com/rankings/mens/team-rankings/t20i");
+
 		List<WebElement> teams= driver.findElements(By.xpath("//tbody/tr/td[2]"));
 		ArrayList<String> list=new ArrayList<String>();
 		for(int i=0;i<teams.size();i++) {
@@ -33,5 +34,6 @@ public class Icc {
 		driver.close();
 		
 	}
+	//(//div[@class='wrapper']/div[@class='col-12'])[2]/section/div/div/div[3]/descendant::div//descendant::div/descendant::div/descendant::div/div
 
 }

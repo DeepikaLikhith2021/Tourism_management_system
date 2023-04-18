@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test_Practice.Dataprovider2">
+      <class name="SeleniumGrid.GridPractice">
         <methods>
-          <include name="getData"/>
+          <include name="HubAndNode"/>
         </methods>
-      </class> <!-- Test_Practice.Dataprovider2 -->
+      </class> <!-- SeleniumGrid.GridPractice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
