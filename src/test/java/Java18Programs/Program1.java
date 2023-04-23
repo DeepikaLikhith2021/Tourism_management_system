@@ -13,7 +13,7 @@ public class Program1 {
    {
 	   set.add(s.charAt(i));
    }
-   for (Character st : set) {
+   //for (Character st : set) {
 	   for(int i=0;i<s.length();i++)
 	   {
 		 if(s.charAt(i)>='a' && s.charAt(i)<='z')  
@@ -24,7 +24,7 @@ public class Program1 {
 	   }
    }
 	}
-}
+
    
 
   

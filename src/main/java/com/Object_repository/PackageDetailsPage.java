@@ -56,7 +56,7 @@ public class PackageDetailsPage {
 		todate.sendKeys(details.get(1));
 		
 		wLib.scrollAction(driver, comments);
-		comments.sendKeys(details.get(2));
+		comments.sendKeys(details.get(1));
 		submitbtn.click();
 		return successmsg.getText();
 		

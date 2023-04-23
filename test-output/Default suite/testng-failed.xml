@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumGrid.GridPractice">
+      <class name="AA_Practice1.Giobibo">
         <methods>
-          <include name="HubAndNode"/>
+          <include name="m1"/>
         </methods>
-      </class> <!-- SeleniumGrid.GridPractice -->
+      </class> <!-- AA_Practice1.Giobibo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
