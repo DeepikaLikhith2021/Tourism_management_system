@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-21T17:07:19 IST" name="Default suite" finished-at="2023-04-21T17:07:19 IST" duration-ms="155">
+  <suite started-at="2023-05-23T13:28:03 IST" name="Default suite" finished-at="2023-05-23T13:28:28 IST" duration-ms="24572">
     <groups>
     </groups>
-    <test started-at="2023-04-21T17:07:19 IST" name="Default test" finished-at="2023-04-21T17:07:19 IST" duration-ms="155">
-      <class name="AA_Practice1.Test1">
-        <test-method signature="t002()[pri:-1, instance:AA_Practice1.Test1@942a29c]" started-at="2023-04-21T17:07:19 IST" name="t002" finished-at="2023-04-21T17:07:19 IST" duration-ms="30" status="PASS">
+    <test started-at="2023-05-23T13:28:03 IST" name="Default test" finished-at="2023-05-23T13:28:28 IST" duration-ms="24572">
+      <class name="Xpath.ICCC111">
+        <test-method signature="test001()[pri:0, instance:Xpath.ICCC111@534a5a98]" started-at="2023-05-23T13:28:03 IST" name="test001" finished-at="2023-05-23T13:28:28 IST" duration-ms="24476" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- t002 -->
-      </class> <!-- AA_Practice1.Test1 -->
+        </test-method> <!-- test001 -->
+      </class> <!-- Xpath.ICCC111 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
