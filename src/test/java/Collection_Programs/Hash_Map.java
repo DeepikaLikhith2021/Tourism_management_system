@@ -18,16 +18,22 @@ public class Hash_Map {
 		map.put(70, "bye");
 		map.put(70, "hihello");
 		map.put(50, "hi");
+		map.put(50, "hello");
+		map.put(50, "hi");
+		map.replace(50, "hello");
 		System.out.println(map);
+		
+		
 		for ( Entry<Integer, Object> m:map.entrySet()) {
 			System.out.println(m.getKey()+"   "+m.getValue());
+			
 			
 		}
 		System.out.println(map.containsKey(50));
 		map.remove(70);
 		map.remove(70,"hihello");
 		System.out.println(map.get(50));
-		System.out.println(map);
+		System.out.println("get the map"+map);
 	}
 	
 

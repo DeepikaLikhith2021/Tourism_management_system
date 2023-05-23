@@ -31,11 +31,18 @@ public class Nyka {
 //		 driver.findElement(By.xpath("//input[@placeholder='search brands']")).sendKeys("Lakme");
 //		 driver.findElement(By.xpath("(//a[text()='Lakme'])[1]")).click();
 		List<WebElement> powder = driver.findElements(By.xpath("//div[@class='css-1rd7vky']/div[@class='css-xrzmfa']"));
-		//ArrayList list=new ArrayList();
-		for (WebElement webElement : powder) {
-			System.out.println(webElement.getText());;
-		}
+		ArrayList<String> list=new ArrayList<String>();
+		for(int i=0;i<powder.size();i++)
+		{
+			list.add(powder.get(i).getText());
 			
+		}
+		for (String name : list) {
+			String x="//div[.='"+name+"']/following-sibling::div/span[2][@class='css-111z9ua']";
+			String price=driver.findElement(By.xpath(x)).getText();
+			System.out.println("powder====>"+name  + "price=====>"+price);
+		}
+		
 		
 		
 		

@@ -26,18 +26,18 @@ public class Read_data_from_excel {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		String parent=driver.getWindowHandle();
 		driver.findElement(By.xpath("//a[text()=' GEARS ']")).click();
-		driver.findElement(By.xpath("//a[.=' SkillRary Whiteboard']")).click();
-		Set<String> child = driver.getWindowHandles();
-		for(String b:child) {
-			driver.switchTo().window(b).getTitle();
-			Thread.sleep(2000);
-			if(child.contains(actual)) {
-				driver.switchTo().defaultContent();
-			}
-			
-		}
-		driver.quit();
-		
+	//	driver.findElement(By.xpath("//a[.=' SkillRary Whiteboard']")).click();
+//		Set<String> child = driver.getWindowHandles();
+//		for(String b:child) {
+//			driver.switchTo().window(b).getTitle();
+//			Thread.sleep(2000);
+//			if(child.contains(actual)) {
+//				driver.switchTo().defaultContent();
+//			}
+//			
+//		}
+//		driver.quit();
+//		
 
 	}
 

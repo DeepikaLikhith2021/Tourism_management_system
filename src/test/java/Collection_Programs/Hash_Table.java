@@ -18,6 +18,7 @@ public class Hash_Table {
 		map.put(70, "good");//override
 		map.put(50, "hi");
 		map.put(50, "hi");
+		
 		System.out.println(map);
 		for(java.util.Map.Entry<Integer, String> m:map.entrySet()) {
 			System.out.println(m.getKey()+"   "+m.getValue());

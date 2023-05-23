@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import com.Object_repository.Admin_dashboardPage;
 import com.Object_repository.Admin_login_page;
@@ -27,7 +28,7 @@ import com.Travel.TMS_generic_utility.WebdriverUtility;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Create_tour  {
-
+@Test
 	public static void main(String[] args) throws Throwable {
 		FileUtility fLib = new FileUtility();
 		DatabaseUtility dLib = new DatabaseUtility();

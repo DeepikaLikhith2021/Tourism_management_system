@@ -29,7 +29,7 @@ public class Non_select_statement {
 		//System.out.println("data updated");
 	
 		
-		if(res==2d) {
+		if(res==2) {
 			System.out.println("data updation");
 		}
 		else {

@@ -16,8 +16,8 @@ public class Hash_Set {
 		set.add(10);
 		
 		System.out.println(set);
-		ArrayList<Object> list  
-		=new ArrayList<Object>(set);
+		ArrayList<Object> list  =new ArrayList<Object>(set);
+		System.out.println("first entry of list"+list);
 		list.add(20);
 		list.add("bye");
 		System.out.println(list);

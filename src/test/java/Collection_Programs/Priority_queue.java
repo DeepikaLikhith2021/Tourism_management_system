@@ -16,13 +16,13 @@ public class Priority_queue {
 		q.add(2);
 		
 		q.add(40);
-		System.out.println(q);
-		System.out.println(q.peek());
-		System.out.println(q);
-		System.out.println(q.peek());
+		System.out.println("q elements"+q);
+		System.out.println("peek"+q.peek());
+		System.out.println("hcgvhj"+q);
+		System.out.println("peek()"+q.peek());
 		
-		System.out.println(q.poll());
-		System.out.println(q);
+		System.out.println("poll"+q.poll());
+		System.out.println("fdgh"+q);
 
 	}
 

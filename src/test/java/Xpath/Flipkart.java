@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -22,7 +23,12 @@ public class Flipkart {
 				driver.get("https://www.flipkart.com/");
 				driver.findElement(By.xpath("//button[@class='_2KpZ6l _2doB4z']")).click();
 				driver.findElement(By.xpath("//input[@name='q']")).sendKeys("mouse");
+				
+				
+				
 				driver.findElement(By.xpath("//button[@type='submit']")).click();
+//				String actual="search?q=mouse&otracker=search&otracker1=search&mar";
+//				Assert.a(actual, "")
 				List<WebElement> ele=driver.findElements(By.xpath("//a[@class='s1Q9rs']"));
 				List<WebElement> eli=driver.findElements(By.xpath("//div[@class='_4ddWXP']/a/following-sibling::a[2]/div/div[@class='_30jeq3']"));
 				List<WebElement> rating=driver.findElements(By.xpath("//div[@class='_4ddWXP']/div/span/div[@class='_3LWZlK']"));
